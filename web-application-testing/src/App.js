@@ -19,6 +19,7 @@ function App() {
      setStrikes(addOne(strikes));
     } else {
       setStrikes(0);
+      setBalls(0);
     };
   }
   const handleBalls = (balls) => {
@@ -26,6 +27,7 @@ function App() {
       setBalls(addOne(balls));
     } else {
       setBalls(0);
+      setStrikes(0)
     }
   }
 
